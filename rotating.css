@@ -1,0 +1,205 @@
+body{overflow-x:hidden}
+.rotating-slider{
+    margin:6em auto; 
+
+    height:300px; 
+
+    position:relative; 
+
+    width:480px
+}
+
+.main{
+  font-size: 1000;
+}
+    
+h2{
+  font-size:1.55em; 
+}
+h4{
+  font-size:1.35em; 
+}
+h1{
+  font-size:2.05em; 
+}
+p{
+  color: black;
+}
+.rotating-slider ul.direction-controls{
+    list-style:none; 
+margin:0; 
+padding:0
+}
+.rotating-slider ul.direction-controls li.left-arrow{
+    position:absolute; 
+
+    top:50%; 
+
+    right:100%; 
+
+    transform:translateY(-50%)
+}
+.rotating-slider ul.direction-controls li.right-arrow{
+    position:absolute; 
+
+    top:50%; 
+ 
+
+    left:100%; 
+
+    transform:translateY(-50%)
+}
+
+.rotating-slider ul.direction-controls li button{
+    background:rgba(0,0,0,.2);
+
+    border:none; 
+
+    color:white; 
+
+    cursor:pointer; 
+font-size:1.5em; 
+font-weight:700;
+height:1.5em ;
+line-height:1.5em;
+ padding:0 ;
+ text-align:center; 
+transition: background 0.25s; 
+width:1.5em}
+
+.rotating-slider ul.direction-controls li button:hover{background:rgba(0,0,0,.6)}.rotating-slider ul.slides{border-radius:50%; 
+height:100%; 
+margin:0; 
+overflow:hidden; 
+padding:0; 
+position:relative; 
+top:0; 
+left:50%; 
+transform:translateX(-50%) rotate(0); 
+transform-origin:center center; 
+width:100%}.rotating-slider ul.slides li{background-color:#ecf0f1; 
+background-position:center; 
+background-size:cover; 
+display:block; 
+list-style:none; 
+position:absolute; 
+top:0; 
+left:50%; 
+text-align:center; 
+transform-origin:bottom center; 
+width:100%}
+
+.button{
+  color:#514F51;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  overflow: visible;
+  padding: 8px;
+  border-radius: 20px;
+  width: 190px;	
+  transition: border 0.5s;
+  border: solid 1px #141414;	
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+    }
+
+/* Start NAVIGATION BAR Stuff */
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E8E1D3; /* Cream Color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #514F51;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #165E6E;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #E8E1D3;
+  color: #514F51;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #165E6E;
+  color: #E8E1D3;
+}
+
+.titleArea {
+	text-align: center;
+	color:  #E8E1D3;
+	/*background-image: url('./images/header.PNG');*/
+	/*background-color: #cccccc;*/
+	height: 0px;
+}
+
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/* End NAVIGATION BAR Stuff */
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+.imageClass {
+
+}
+
+.subInner {
+    color: #E8E1D3;
+}
+
+.inner {
+    color: #E0B069;
+}
+
+.inner2 {
+    color: #000;
+}

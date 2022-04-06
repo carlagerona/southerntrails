@@ -1,0 +1,207 @@
+   /*#E0B069
+   #165E6E
+   #514F51
+   
+   */
+
+/* Start NAVIGATION BAR Stuff */
+
+p{
+  color: white;
+}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #E8E1D3; /* Cream Color */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #514F51;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #165E6E;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #E8E1D3;
+  color: #514F51;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #165E6E;
+  color: #E8E1D3;
+}
+
+.titleArea {
+	text-align: center;
+	color:  #E8E1D3;
+	/*background-image: url('./images/header.PNG');*/
+	/*background-color: #cccccc;*/
+	height: 80px;
+}
+
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/* End NAVIGATION BAR Stuff */
+
+body {
+    background-color: #E0B069;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  
+  .container {
+    position: absolute;
+    height: 300px;
+    width: auto;
+    top: 200px;
+    left: calc(50% - 600px);
+    display: flex;
+  }
+  
+  .card {
+    display: flex;
+    height: 590px;
+    width: 330px;
+    background-color: #17141d;
+    /*#17141d*/
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem rgb(37, 37, 37);
+  /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.9px ;
+  }
+  
+  .card:not(:first-child) {
+      margin-left: -20px;
+  }
+  
+  .card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+  }
+  
+  .card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.2s ease-out;
+  }
+  
+  .title {
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 25px;
+  }
+  
+  .bar {
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    height: 5px;
+    width: 300px;
+    
+  }
+  
+  .emptybar {
+    background-color: #2e3033;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .filledbar {
+    position: absolute;
+    top: 0px;
+    z-index: 3;
+    width: 0px;
+    height: 100%;
+    background: rgb(0,154,217);
+    background: linear-gradient(90deg, #a0b1bc 0%, rgba(133, 163, 98,1) 65%, #85a362 100%);
+    transition: 0.6s ease-out;
+  }
+  
+  .card:hover .filledbar {
+    width: 300px;
+    transition: 0.4s ease-out;
+  }
+  
+  .circle {
+    position: absolute;
+    top: 300px;
+    /*left: calc(50% - 0px);*/
+    left: 50%;
+    transform: translateX(-20%);
+  }
+  
+  .stroke {
+    stroke: white;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 360;
+    transition: 0.6s ease-out;
+  }
+  
+  svg {
+    fill: #17141d;
+    stroke-width: 2px;
+  }
+  
+  .card:hover .stroke {
+    stroke-dashoffset: 100;
+    transition: 0.6s ease-out;
+  }
+
+  img{
+    padding-block-start: 20px;
+    height: 280px;
+    width: 280px;
+   
+  }
+
+  .descriptions {
+    color: white;
+  }
