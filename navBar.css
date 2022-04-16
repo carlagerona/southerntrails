@@ -5,7 +5,7 @@
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #514F51; /* Cream Color */
+  background-color: #514f51; /* Cream Color */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -16,14 +16,14 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #E8E1D3;
+  color: #e8e1d3;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  color: #B55F56;
+  color: #b55f56;
 }
 
 /* Position and style the close button (top right corner) */
@@ -39,246 +39,243 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #514F51;
-  color: #E8E1D3;
+  background-color: #514f51;
+  color: #e8e1d3;
   padding: 10px 15px;
   border: solid 1px;
-  border-color: #E8E1D3;
+  border-color: #e8e1d3;
   margin-bottom: 30px;
 }
 
 .openbtn:hover {
-  background-color: #165E6E;
-  color: #E8E1D3;
+  background-color: #165e6e;
+  color: #e8e1d3;
 }
-
 
 .button1x0 {
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-    overflow: visible;
-    padding: 8px;
-    border-radius: 20px;
-    width: 190px;	
-    transition: border 0.5s;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-     background-color: #E8E1D3;
-     color: #514F51;
-     border-color: #000000;
-}
-    
-
-.button1x0:hover {
-    background-color: #514F51;
-    color: #E8E1D3;
-}
-
-.button1x1 {
-font-size: 100%; /* 1 */
+  font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
   overflow: visible;
   padding: 8px;
   border-radius: 20px;
-  width: 190px;	
+  width: 190px;
   transition: border 0.5s;
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
-box-sizing:border-box;
- background-color: #E8E1D3;
- color: #514F51;
- border-color: #514F51;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e8e1d3;
+  color: #514f51;
+  border-color: #000000;
+}
+
+.button1x0:hover {
+  background-color: #514f51;
+  color: #e8e1d3;
+}
+
+.button1x1 {
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  overflow: visible;
+  padding: 8px;
+  border-radius: 20px;
+  width: 190px;
+  transition: border 0.5s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e8e1d3;
+  color: #514f51;
+  border-color: #514f51;
 }
 
 .button1x1:hover {
-    background-color: #514F51;
-    color: #E8E1D3;
+  background-color: #514f51;
+  color: #e8e1d3;
 }
 
 .button2X3 {
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-    overflow: visible;
-    padding: 8px;
-    border-radius: 20px;
-    width: 190px;	
-    transition: border 0.5s;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-     background-color: #E8E1D3;
-     color: #514F51;
-     border-color: #514F51;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  overflow: visible;
+  padding: 8px;
+  border-radius: 20px;
+  width: 190px;
+  transition: border 0.5s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e8e1d3;
+  color: #514f51;
+  border-color: #514f51;
 }
-    
+
 .button2X3:hover {
-    background-color: #514F51;
-    color: #E8E1D3;
+  background-color: #514f51;
+  color: #e8e1d3;
 }
 
 .button3x4 {
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-    overflow: visible;
-    padding: 8px;
-    border-radius: 20px;
-    width: 190px;	
-    transition: border 0.5s;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-     background-color: #E8E1D3;
-     color: #514F51;
-     border-color: #000000;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  overflow: visible;
+  padding: 8px;
+  border-radius: 20px;
+  width: 190px;
+  transition: border 0.5s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e8e1d3;
+  color: #514f51;
+  border-color: #000000;
 }
 
 .button3x4:hover {
-    background-color: #514F51;
-    color: #E8E1D3;
+  background-color: #514f51;
+  color: #e8e1d3;
 }
 
 .button1x2 {
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-    overflow: visible;
-    padding: 8px;
-    border-radius: 20px;
-    width: 190px;	
-    transition: border 0.5s;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    box-sizing:border-box;
-     background-color: #E8E1D3;
-     color: #514F51;
-     border-color: #000000;
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  overflow: visible;
+  padding: 8px;
+  border-radius: 20px;
+  width: 190px;
+  transition: border 0.5s;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e8e1d3;
+  color: #514f51;
+  border-color: #000000;
 }
 
 .button1x2:hover {
-    background-color: #514F51;
-    color: #E8E1D3;
+  background-color: #514f51;
+  color: #e8e1d3;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s; /* If you want a transition effect */
+  transition: margin-left 0.5s; /* If you want a transition effect */
   padding: 20px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
 }
 
 body {
-	background-color: #E8E1D3;
-	font-family: Trebuchet MS, sans-serif;
-    font-size: 20px;
+  background-color: #e8e1d3;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20px;
 }
 
 .titleArea {
-    position: relative;
-	text-align: center;
-	color:  #FFF;
-    filter: brightness(80%);
-    height: 250px;
-    font-size: 40px;
-	background-image: url('https://images.unsplash.com/photo-1598646865560-5991f2cfa704?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80');
-	background-color: #cccccc;
-
+  position: relative;
+  text-align: center;
+  color: #fff;
+  filter: brightness(80%);
+  height: 250px;
+  font-size: 40px;
+  background-image: url("https://images.unsplash.com/photo-1598646865560-5991f2cfa704?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80");
+  background-color: #cccccc;
 }
 
 .projectDescription {
-    color: #FFF;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
 
-
 .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }
 
 div div {
-	text-align: center;
-	padding: 20px;
-	height: 230px;
-
+  text-align: center;
+  padding: 20px;
+  height: 230px;
 }
 
 .comp1x1 {
-    background: url(Grid1.png);
+  background: url(Grid1.png);
 }
 
 .comp1x2 {
-	background-color: #6E6B6E;
-	text-align: center;
+  background-color: #6e6b6e;
+  text-align: center;
 }
 
 .comp1x2:hover {
-    background-color:#514F51;
+  background-color: #514f51;
 }
 
 .comp1x3 {
-	background: url(Grid2.jpg);
+  background: url(Grid2.jpg);
 }
 
 .comp1x4 {
-	background: url(Grid3.jpg);
+  background-color: #c5993a;
 }
-
 
 .comp2x1 {
-	background: url(Grid4.png);
+  background: url(Grid4.png);
 }
 
-
 .comp2x2 {
-	background: url(Grid5.png);
+  background: url(Grid5.png);
 }
 
 .comp2x3 {
-	background-color: #85a362;
-	text-align: center;
+  background-color: #85a362;
+  text-align: center;
 }
 
 .comp2x3:hover {
-    background-color: #a1b888;
+  background-color: #a1b888;
 }
 
 .comp2x4 {
-	background: url(Grid6.jpg);
+  background: url(Grid6.jpg);
 }
 
 .comp3x1 {
-	background: url(Grid7.jpg);
+  background: url(Grid7.jpg);
 }
 
 .comp3x2 {
-	background-color: #B55F56;
-	text-align: center;
+  background-color: #b55f56;
+  text-align: center;
 }
 
 .comp3x2:hover {
-    background-color: #C77269;
+  background-color: #c77269;
 }
 
 .comp3x3 {
-	background: url(Grid8.png);
+  background: url(Grid8.png);
 }
 
 .comp3x4 {
-	background-color: #A0B1BC;
-	text-align: center;
+  background-color: #a0b1bc;
+  text-align: center;
 }
 
 .comp3x4:hover {
-    background-color: #BFD2DE;
+  background-color: #bfd2de;
 }
