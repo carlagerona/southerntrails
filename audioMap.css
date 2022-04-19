@@ -1,0 +1,221 @@
+/* Color StyleGuide
+        Dark Gray: #514F51
+        Cream: #E8E1D3
+        Teal: #165E6E
+        Red: #B55F56
+        Green: #85A362
+        Blue: #A0B1BC
+        Yellow: #E0B069
+        */
+
+
+/* *** Beginning Navigation Bar *** */
+    .sidebar {
+      height: 100%; /* 100% Full-height */
+      width: 0; /* 0 width - change this with JavaScript */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Stay on top */
+      top: 0;
+      left: 0;
+      background-color: #514F51; /* Cream Color */
+      overflow-x: hidden; /* Disable horizontal scroll */
+      padding-top: 60px; /* Place content 60px from the top */
+      transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+    }
+
+    /* The sidebar links */
+    .sidebar a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #E8E1D3;
+      display: block;
+      transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidebar a:hover {
+      color: #B55F56;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidebar .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    /* The button used to open the sidebar */
+    .openbtn {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: #514F51;
+      color: #E8E1D3;
+      padding: 10px 15px;
+      border: solid 1px;
+      border-color: #E8E1D3;
+      margin-bottom: 30px;
+    }
+
+    .openbtn:hover {
+      background-color: #165E6E;
+      color: #E8E1D3;
+    }
+
+    #main {
+      transition: margin-left .5s; /* If you want a transition effect */
+      padding: 20px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
+/* *** End Navigation Bar *** */
+
+
+/* *** Beginning Background Display *** */
+    body {
+        background-color: #E8E1D3;
+        font-family: Trebuchet MS, sans-serif;
+        font-size: 20px;
+        box-sizing: border-box;
+    }
+/* *** End Background Display *** */
+
+
+/* *** Beginning Header Display *** */
+.header {
+    position: relative;
+	text-align: center;
+	background-color: #85A362;
+	color: #FFF;
+	padding: 15px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+#description {
+    font-size: 15px;
+}
+/* *** End Header Display *** */
+
+
+/* *** Beginning Map Display *** */
+    .map {
+        position: relative;
+        width: 95%;
+        background-size: contain;
+        top: 10px;
+        left: 2.5%;
+        border: 2px solid black;
+        display: inline-block;
+    }
+
+    #mapImg {
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+/* *** End Map Display *** */
+
+
+/* *** Beginning Pin Display *** */
+    .pin {
+        position: absolute;
+        height: 35px;
+        width: 35px;
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #pin1 {
+        top: 40%;
+        left: 25%;
+    }
+
+    #pin2 {
+        top: 45%;
+        right: 50%;
+    }
+
+    #pin3 {
+        top: 5%;
+        right: 65%;
+    }
+/* *** End Pin Display *** */
+
+
+/* *** Beginning Audio Player Display *** */
+    audio::-webkit-media-controls-panel {
+      background-color: #8d908e;
+    }
+
+    audio::-webkit-media-controls-volume-slider {
+      background-color: #d3d4d3;
+      border-radius: 25px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    audio::-webkit-media-controls-current-time-display {
+      color: #fff;
+    }
+
+    audio::-webkit-media-controls-play-button {
+      background-color: #d3d4d3;
+      border-radius: 50%;
+    }
+
+    audio::-webkit-media-controls-play-button:hover {
+      background-color: rgba(211,212,211, .7);
+    }
+
+    .player {
+        position: absolute;
+        align: center;
+        text-align: center;
+        height: 35%;
+        width: 98%;
+        left: 1%;
+        top: 103%;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    .player .text {
+        font-size: 20px;
+        color: #FFF;
+    }
+
+    .player audio {
+        align: center;
+        text-align: center;
+        height: 15%
+    }
+
+    /* LOOK OF EACH PLAYER */
+    #player1{
+        visibility: hidden;
+    }
+    #player2{
+        visibility: hidden;
+    }
+    #player3{
+        visibility: hidden;
+    }
+
+    #player1Temp {
+        visibility: hidden;
+    }
+    #player2Temp {
+        visibility: hidden;
+    }
+    #player3Temp {
+        visibility: hidden;
+    }
+/* *** End Audio Player Display *** */

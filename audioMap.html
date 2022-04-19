@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Audio Page Prototype</title>
+        <link rel="stylesheet" type="text/css" href=".\audioMap.css">
+        <script src=".\audioMap.js"></script>
+    </head>
+    <body>
+
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="sources.html">Sources</a>
+            <a href="About-Page.html">About Page</a>
+        </div>
+
+
+
+        <div id="main">
+
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+            <div class="header">
+                <h1 id="title">
+                    Podcasts: Oakland Cemetery
+                </h1>
+                <p id="description">
+                    Podcasts Recorded with Students of HTS 3100
+                </p>
+            </div>
+            <div class="map">
+                <img src=".\Map.PNG" id="mapImg">
+
+                <!-- PODCAST1: Coordinate Pin and Player Information -->
+                <img class="pin" id="pin1" src=".\pin.png" onClick="pin1Function()" onmouseover="pin1Hover()" onmouseout="pin1Off()">
+                <div class="player" id="player1">
+                    <h3 class="text">Podcast1 Name</h3>
+                    <h4 class="text">Podcast1 Description</h4>
+                    <audio src="./sampleAudio1.mp3" controls></audio>
+                </div>
+                <div class="player" id="player1Temp">
+                    <h3 class="text">TEMP Podcast1 Name</h3>
+                    <h4 class="text">TEMP Podcast1 Description</h4>
+                </div>
+
+                <!-- PODCAST2: Coordinate Pin and Player Information -->
+                <img class="pin" id="pin2" src=".\pin.png" onclick="pin2Function()" onmouseover="pin2Hover()" onmouseout="pin2Off()">
+                <div class="player" id="player2">
+                    <h3 class="text">Podcast2 Name</h3>
+                    <h4 class="text">Podcast2 Description</h4>
+                    <audio src="./sampleAudio1.mp3" controls></audio>
+                </div>
+                <div class="player" id="player2Temp">
+                    <h3 class="text">TEMP Podcast2 Name</h3>
+                    <h4 class="text">TEMP Podcast2 Description</h4>
+                </div>
+
+                <!-- PODCAST3: Coordinate Pin and Player Information -->
+                <img class="pin" id="pin3" src=".\pin.png" onclick="pin3Function()" onmouseover="pin3Hover()" onmouseout="pin3Off()">
+                <div class="player" id="player3">
+                    <h3 class="text">Podcast3 Name</h3>
+                    <h4 class="text">Podcast3 Description</h4>
+                    <audio src="./sampleAudio1.mp3" controls></audio>
+                </div>
+                <div class="player" id="player3Temp">
+                    <h3 class="text">TEMP Podcast3 Name</h3>
+                    <h4 class="text">TEMP Podcast3 Description</h4>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>
