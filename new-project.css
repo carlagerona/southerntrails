@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #c7ad8a;
+  background-color: #d4ccbb;
 }
 
 body {
@@ -31,7 +31,7 @@ h1 {
 
   font-weight: 600;
   text-align: center;
-  color: #ffffff;
+  color: #1d1d1d;
 }
 
 img {
@@ -41,7 +41,7 @@ img {
 }
 
 .btn {
-  color: #ffffff;
+  color: #080808;
   padding: 0.8rem;
   font-size: 16px;
   text-transform: uppercase;
@@ -95,11 +95,11 @@ img {
 .card_content {
   align-items: center;
   padding: 1rem;
-  background: linear-gradient(to bottom left, #ce7a0d8e 40%, #ffe59e 100%);
+  background: linear-gradient(to bottom left, #ac6138ea 40%, #5c2b10e7 100%);
 }
 
 .card_title {
-  color: #ffffff;
+  color: #0e0e0e;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -108,7 +108,7 @@ img {
 }
 
 .card_text {
-  color: #ffffff;
+  color: #000000;
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
