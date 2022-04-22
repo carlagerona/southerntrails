@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New carousel</title>
+    <link rel="stylesheet" href="rotating.css">
+
+    <script src="jquery.rotating-slider.min.js"></script>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300,700);
+        body{
+            background: #E0B069;
+            font-family: 'Roboto Slab', sans-serif;
+            font-weight: 300;
+            overflow: hidden;
+        }
+        .rotating-slider ul.slides li{
+            color: #E0B069
+        }
+        .rotating-slider ul.slides li:nth-of-type(1){
+            background: #165E6E;
+        }
+        .rotating-slider ul.slides li:nth-of-type(2){
+            background: url('Ramsay EDITED.PNG');
+        }
+        .rotating-slider ul.slides li:nth-of-type(3){
+            background:  #514F51;
+        }
+        .rotating-slider ul.slides li:nth-of-type(4){
+            background: url('Ramsay EDITED.PNG');
+        }
+        .rotating-slider ul.slides li:nth-of-type(5){
+            background: #B55F56;
+        }
+        .rotating-slider ul.slides li:nth-of-type(6){
+            background-image: url('Ramsay EDITED.PNG');
+        }
+        .rotating-slider ul.slides li:nth-of-type(7){
+            background: #514F51;
+        }
+        .rotating-slider ul.slides li:nth-of-type(8){
+            background-image: url('Ramsay EDITED.PNG');
+        }
+        .rotating-slider ul.slides li .inner{
+            box-sizing: border-box;
+            padding: 2em;
+            height: 100%;
+            width: 100%;
+        }
+
+        .rotating-slider ul.slides li .inner2{
+            box-sizing: border-box;
+            padding: 2em;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="sources.html">Sources</a>
+        <a href="About-Page.html">About</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">&#9776; </button>
+        <!-- Create Title Area -->
+        <div class="titleArea">
+            <h1>
+                NEW PROJECT CAROUSEL
+            </h1>
+        </div>
+        <div class="rotating-slider">
+            <ul class="slides">
+
+                #Title Slide#
+                <li>
+                    <div class="inner">
+                        <h2>PROJECT TITLE</h2>
+                        <h3 class="subInner">PROJECT DESCRIPTION</h3>
+                        <p><i></i></p>
+                    </div>
+                </li>
+
+                #Slide 2#
+                <li>
+                    <div class="inner2">
+                        <h2>STUDENT NAME</h2>
+                        <h4>TOPIC</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/0cd8405691e1468aa78591ac4c6b3f70"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 3#
+                <li>
+                    <div class="inner">
+                        <h2>STUDENT NAME</h2>
+                        <h4>TOPIC</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/e7fbc9e3a6f34f278ebf9ccb6958ce3e"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 4#
+                <li>
+                    <div class="inner2">
+                        <h2>STUDENT NAME</h2>
+                        <h4>TOPIC</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/0cd8405691e1468aa78591ac4c6b3f70"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 5#
+                <li>
+                    <div class="inner">
+                        <h2>STUDENT NAME</h2>
+                        <h4>TOPIC</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/e7fbc9e3a6f34f278ebf9ccb6958ce3e"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                <!-- #Slide 4#
+                <li>
+                    <div class="inner2">
+                        <h2>American Reaction to Boston Tea Party</h2>
+                        <h4>Chapter 3-4</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/17924a255cbe468f9b0d7568862f8427"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 5#
+                <li>
+                    <div class="inner">
+                        <h2>The Consequences of the Proceedings of Congress</h2>
+                        <h4>Chapter 5-6</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/ff3b23061cc94d5c8efefe56d210dec0"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 6#
+                <li>
+                    <div class="inner2">
+                        <h2>The Founding of the Continental Army</h2>
+                        <h4>Chapter 7-8</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/1a25f8e73294426aafb5870d3a634f94"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 7#
+                <li>
+                    <div class="inner">
+                        <h2>Early Years of the Revolution in the American South</h2>
+                        <h4>Chapter 9</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/f6a1bfbad9b5407f8a238bb368131398"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li>
+
+                #Slide 8#
+                <li>
+                    <div class="inner2">
+                        <h2>The Evacuation of Boston</h2>
+                        <h4>Chapter 9-10</h4>
+
+                        <a href="https://storymaps.arcgis.com/stories/2ded4cbc064b49ab812c6c4c7c999d8b"><button type="button" class = "button">View Project</button></a>
+                    </div>
+                </li> -->
+
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="jquery.rotating-slider.min.js"></script>
+    <script>
+        $(function(){ 
+            $('.rotating-slider').rotatingSlider({
+                slideHeight : Math.min(360, window.innerWidth -80),
+                slideWidth : Math.min(480, window.innerWidth - 80),
+                afterRotationStart: function(){
+                    console.log('Rotating to slide '+($('.rotating-slider .active-slide').index() + 1));
+                }
+            });
+        });
+    </script>
+</body>
+</html>
